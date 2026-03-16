@@ -15,7 +15,7 @@ Welcome to the **Aura UI Selection**, a high-end web interface featuring four di
 
  🚀 View the Project
 You can experience the live collection here:
-[**Launch Aura UI Selection**](https://ALEX-AURAUIPREMIUM.github.io/Aura-UI-Premium-Cards/)
+[**Launch Aura UI Selection**](https://44llsses.github.io/Aura-UI-Premium-Cards/)
 
 ---
 *Developed with focus on detail and modern web standards.*
