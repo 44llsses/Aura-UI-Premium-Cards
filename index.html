@@ -27,26 +27,33 @@
         .btn-eth { color: #ffe082; border-color: #ffe082; }
         .btn-eth:hover { background: #ffe082; color: #000; box-shadow: 0 0 30px #ffe082; }
 
-@media (min-width: 1024px) {
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        margin: 0;
-        background-size: cover !important; 
-    }
-    
-    .container, .card, main {
-        width: 80% !important; 
-        max-width: 900px !important; 
-        height: auto !important;
-        padding: 40px !important; 
-    }
+:root {
+  --escala: 1; 
+}
 
-    h1 { font-size: 3rem !important; }
-    p, a { font-size: 1.2rem !important; }
-        }
+@media (min-width: 1024px) {
+  :root {
+    --escala: 1.4; 
+  }
+}
+
+@media (min-width: 1600px) {
+  :root {
+    --escala: 1.7; 
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  
+  zoom: var(--escala); 
+  -moz-transform: scale(var(--escala));
+  -moz-transform-origin: center;
+}
         
     </style>
 </head>
